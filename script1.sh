@@ -18,7 +18,7 @@ then
 	then
 		echo "An error occured, please check the $errorlog file."
 	fi
-	sudo apt dist-upgrade 1>>$logfile 2>>$errorlog
+	sudo apt dist-upgrade -y 1>>$logfile 2>>$errorlog
 	if [ $? -ne 0 ]
 	then
 		echo "An error occured, please check the $errorlog file."
