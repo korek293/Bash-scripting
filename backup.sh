@@ -8,7 +8,7 @@ then
 	exit 1
 fi
 
-# Check to see if rsync is installed
+# Check to see if rsync is installed.
 if ! command -v rsync > /dev/null 2>&1
 then
 	echo "This script requires rsync to be installed."
