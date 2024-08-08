@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Count lines
 lines=$(ls -lh $1 | wc -l)
 
 if [ $# -ne 1 ]
